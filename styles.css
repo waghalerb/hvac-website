@@ -52,18 +52,28 @@ header nav ul li a {
     border-radius: 5px;
 }
 
-#services {
+#about, #training, #design, #contact {
     padding: 50px 20px;
     text-align: center;
 }
 
-#services h2 {
+h2 {
     font-size: 2em;
     margin-bottom: 20px;
 }
 
-.service {
+p {
+    font-size: 1.1em;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
     margin: 20px 0;
+}
+
+ul li {
+    margin-bottom: 10px;
 }
 
 footer {
